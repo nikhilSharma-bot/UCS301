@@ -124,6 +124,6 @@ int main()
     Node *mn = t.minElement(t.root);
     Node *suc = t.inorderSuccessor(t.root, 7);
     Node *pre = t.inorderPredecessor(t.root, 7);
-
+    cout<< "Search result"<<
     return 0;
 }
